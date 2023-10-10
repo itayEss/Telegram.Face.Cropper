@@ -3,10 +3,6 @@ import torch
 from pathlib import Path
 from ultralytics import YOLO
 
-
-
-# Initialize
-# model = torch.hub.load('ultralytics/yolov8n', 'yolov8n')  # You can change 'yolov5s' to 'yolov5m', 'yolov5l', or 'yolov5x' for larger models
 model = YOLO(f'./model/yolov8n-face.pt', task="segment")
 
 vid_path = './temp/mp4_2023-10-10_08-35-26.mp4'  # Replace with your video path

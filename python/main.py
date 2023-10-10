@@ -1,4 +1,3 @@
-
 from telegram_extractor import extract_data_from_telegram
 from face_cropper_cv2 import get_faces
 import asyncio
