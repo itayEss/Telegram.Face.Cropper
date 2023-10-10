@@ -6,10 +6,10 @@ import os
 
 ###################################################
 ###########Detailes for Telegram ##################
-api_id = "24817662"
-api_hash = 'f887bd8bd39fa28a379b63375653146c'
-phone_number = '+972528022557'
-channel_username = '@isrsuperbot'
+api_id = ""
+api_hash = ''
+phone_number = '+'
+channel_username = '@'
 ###################################################
 
 asyncio.run(extract_data_from_telegram(channel_username,api_id,api_hash,phone_number))
