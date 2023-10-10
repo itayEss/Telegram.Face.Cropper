@@ -8,3 +8,6 @@ Pillow
 ultralytics
 GitPython
 OmegaConf
+
+face-recognition
+scikit-image
