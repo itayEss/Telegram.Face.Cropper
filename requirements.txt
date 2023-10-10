@@ -1,0 +1,10 @@
+telethon
+opencv-python
+dlib
+
+torch 
+torchvision
+Pillow
+ultralytics
+GitPython
+OmegaConf
